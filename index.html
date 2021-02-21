@@ -11,42 +11,22 @@
     <link rel="stylesheet" href="css/main.css">
   </head>
   <body>
+    <div class="debug">
+      <!-- NAV IN FLEXBOX -->
+      <section class="navigazione">
+        <div class="container">
+          <div class="my-nav-flex-container">
+            <div class="my-nav-flex-left">
+              <div class="my-nav-logo">
+                <a class="navbar-brand" href="#"><img alt="logo DigitalOcean" src="img/logo.png"></a>
+              </div>
+              <div class="my-nav-firstselection">
 
-    <!-- NAV IN FLEXBOX -->
-    <section class="navigazione">
-      <div class="container">
-        <div class="my-nav-flex-container">
-          <div class="my-nav-flex-left">
-            <div class="my-nav-logo">
-              <a class="navbar-brand" href="#"><img alt="logo DigitalOcean" src="img/logo.png"></a>
-            </div>
-            <div class="my-nav-firstselection">
-
-              <ul class="nav navbar-nav">
-                  <!-- ELEMENTI DI NAV SX -->
-                  <li class="dropdown"><a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Products <span class="caret"></span></a>
-                  <li><a href="#">Customer</a></li>
-                  <li class="dropdown"><a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Community <span class="caret"></span></a>
-                    <ul class="dropdown-menu">
-                      <li><a href="#">Action</a></li>
-                      <li><a href="#">Another action</a></li>
-                      <li><a href="#">Something else here</a></li>
-                      <li role="separator" class="divider"></li>
-                      <li><a href="#">Separated link</a></li>
-                      <li role="separator" class="divider"></li>
-                      <li><a href="#">One more separated link</a></li>
-                    </ul>
-                  </li>
-                  <li><a href="#">Pricing</a></li>
-                </ul>
-            </div>
-            </div>
-            <div class="my-nav-flex-right">
-              <div class="my-nav-secondselection">
                 <ul class="nav navbar-nav">
                     <!-- ELEMENTI DI NAV SX -->
-                    <li><a href="#">Docs</a></li>
-                    <li class="dropdown"><a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Support<span class="caret"></span></a>
+                    <li class="dropdown"><a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Products <span class="caret"></span></a>
+                    <li><a href="#">Customer</a></li>
+                    <li class="dropdown"><a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Community <span class="caret"></span></a>
                       <ul class="dropdown-menu">
                         <li><a href="#">Action</a></li>
                         <li><a href="#">Another action</a></li>
@@ -57,18 +37,75 @@
                         <li><a href="#">One more separated link</a></li>
                       </ul>
                     </li>
-                    <li><a href="#">Login</a></li>
-                    <li><button type="button" class="btn btn-default navbar-btn">Sign Up</button></li>
+                    <li><a href="#">Pricing</a></li>
                   </ul>
               </div>
-            </div>
+              </div>
+              <div class="my-nav-flex-right">
+                <div class="my-nav-secondselection">
+                  <ul class="nav navbar-nav">
+                      <!-- ELEMENTI DI NAV SX -->
+                      <li><a href="#">Docs</a></li>
+                      <li class="dropdown"><a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Support<span class="caret"></span></a>
+                        <ul class="dropdown-menu">
+                          <li><a href="#">Action</a></li>
+                          <li><a href="#">Another action</a></li>
+                          <li><a href="#">Something else here</a></li>
+                          <li role="separator" class="divider"></li>
+                          <li><a href="#">Separated link</a></li>
+                          <li role="separator" class="divider"></li>
+                          <li><a href="#">One more separated link</a></li>
+                        </ul>
+                      </li>
+                      <li><a href="#">Login</a></li>
+                      <li><button type="button" class="btn btn-default navbar-btn">Sign Up</button></li>
+                    </ul>
+                </div>
+                <div class="my-hamburger">
+                  <a class="hamburger" href="#"><img src="img/hamburger.png" alt="un hamburger"></a>
+                </div>
+              </div>
+              </div>
+            </div>  
+            </section>
+              <!-- PRIMA PARTE DELL'HEADER -->
 
-            <div class="my-hamburger">
-
+        <section class="header-uno">
+          <div class="container">
+            <div class="row">
+              <div class="col-xs-12 col-md-6">
+                <div class="header_uno_text">
+                  <h1>The simplest cloud platform for developers &amp; teams</h1>
+                  <span>Deploy, manage, and scale cloud applications faster ad more efficiently on DigitalOcean. We Make managing infrastructure easy for teams and businesses, whether you're running one virtual machine or ten thousand.</span>
+                </div>
+              </div>
+              <div class="col-xs-12 col-md-6">
+                <div class="my_form">
+                  <div class="margin_form">
+                    <h4 id="title_form">Deploy your app in seconds.</h4>
+                    <h4 id="title_form_blue" >Get started now.</h4>
+                    <!-- INSERIRE EMAIL E PASSWORD -->
+                      <div class="form-group">
+                        <input type="email" class="form-control" id="exampleInputEmail1" placeholder="Email">
+                        <input type="email" class="form-control" id="exampleInputEmail1" placeholder="Password">
+                      </div>
+                      <div class="bottone_form bottone_form_blue">
+                        Create your account
+                      </div>
+                      <div class="bottone_form bottone_form_bianco">
+                        <img id="logo_nel_bottone" src="img/google-icon.png" alt="Logo di Google">
+                        Sign up with Google
+                      </div>
+                      <h6>By signing up you agree to the <a href="#">Term of Service</a>.</h6>
+                  </div>
+                </div>
+              </div>
             </div>
+          </div>
+        </section>
+
+
         </div>
-      </div>
-    </section>
 
 
 
