@@ -1,0 +1,46 @@
+/* FLEX FLEX FLEX FLEX FLEX FLEX FLEX FLEX FLEX  */
+
+.my-nav-flex,
+.my-nav-flex-content {
+  display: flex;
+}
+
+.my-nav-flex {
+justify-content: space-between;
+}
+
+.my-nav-flex .navcontent-middle {
+justify-content: flex-start;
+background-color: blue;
+
+}
+
+.my-nav-flex-content {
+  justify-content: center;
+  align-items: center;
+  flex-wrap: nowrap;
+
+}
+
+  .navcontent-left {
+  display: flex;
+
+
+}
+
+.navcontent-middle {
+
+
+}
+
+
+
+.navbar-brand img {
+  width: 150px;
+
+}
+
+.navbar-btn {
+  border-color: #337ab7;
+  color: #337ab7;
+}
